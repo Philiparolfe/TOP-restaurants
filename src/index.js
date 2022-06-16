@@ -1,14 +1,52 @@
 import _ from 'lodash';
 import './style.css';
+import Icon from './icon.png'
 
-function component() {
-    const element = document.createElement('div');
+
+// styles
+
+import './style.css';
+import './style/contact.css';
+import './style/header.css';
+import './style/home.css';
+import './style/menu.css';
+import './style/navBar.css';
+
+// components
+
+import navBar from './components/navBar';
+
+
+// pages
+
+import home from './pages/home';
+import menu from './pages/menu';
+import contact from './pages/contact';
+
+
+// functions 
+
+import initialization from './functions/initialization';
+
+
+
+// main code
+
+initialization()
+
+
+  //function test () {
+  //  const telement = document.createElement('div');
   
 
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
+  //  telement.innerHTML = _.join(['Testing', 'Test'], ' ');
+  //  telement.classList.add('hello');
+
+
+  //  return telement;
+  //}
   
-    return element;
-  }
-  
-  document.body.appendChild(component());
+  //document.body.appendChild(test());
+
+
+  // add event listeners
