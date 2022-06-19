@@ -19,9 +19,7 @@ import navBar from './components/navBar';
 
 // pages
 
-import home from './pages/home';
-import menu from './pages/menu';
-import contact from './pages/contact';
+
 
 
 // functions 
@@ -50,3 +48,17 @@ initialization()
 
 
   // add event listeners
+
+
+const about = document.getElementById('about');
+about.addEventListener('click', hello);
+
+const menu = document.getElementById('menu');
+menu.addEventListener('click', hello);
+
+const contact = document.getElementById('contact');
+contact.addEventListener('click', hello);
+
+function hello() {
+  console.log('hellop')
+}

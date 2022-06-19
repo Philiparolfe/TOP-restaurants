@@ -1,0 +1,30 @@
+#container {
+    height: auto;
+    width: 100%;
+    background-color: #979696;
+    
+    
+    padding: 1px 0px 2px 0px;
+    
+  }
+  
+  ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li{
+    list-style: none;
+    display: inline-block;
+    color: #212121;
+    text-decoration: none;
+    font-family: Monospace;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  
+  li:hover{
+    color: white;
+  }

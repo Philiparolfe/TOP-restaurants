@@ -8,7 +8,7 @@ const initialization = () => {
     const content = document.querySelector("#content");
     navBar();
     
-    home();
+    
 }
 
 export default initialization;
