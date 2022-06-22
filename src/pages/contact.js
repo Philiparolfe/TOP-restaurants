@@ -1,15 +1,17 @@
 //import
 import navBar from "../components/navBar"
-import video from "../components/videoBg";
-// template code
+
+// template
+
+const info = {
+      address: '123 Main St',
+      phone: '555-555-555',
+      hours: 'Mon-Fri 10:00 - 10:00'
+    }
 
 function contactPage() {
 
-    const info = {
-      address: '123 Lame St',
-      phone: '555-555-555',
-      hours: 'Mon-Fri 10:00 - !0:00'
-    }
+  
     
     // const HTML elements as JS obj
     const content = document.querySelector("#content");
@@ -48,8 +50,10 @@ function contactPage() {
     contactInfo.appendChild(hours)
     video();
     
+    
   }
   
   //export
   
   export default contactPage;
+  export {info};

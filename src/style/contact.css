@@ -9,4 +9,7 @@
     font-weight: 700;
     letter-spacing: 3px;
     color: white;
+    margin-bottom: 5vh;
+    font-size: x-large;
+    text-shadow: 0 0 6px #FF0000, 0 0 10px #ff6d6d;
 }
