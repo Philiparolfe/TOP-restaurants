@@ -1,11 +1,11 @@
 //import
 import navBar from "../components/navBar"
 import video from "../components/videoBg";
-// template code
 
+// template code
 function menuPage() {
     
-    // const HTML elements as JS obj
+    //create HTML elements
     const content = document.querySelector("#content");
     
     const container = document.createElement('div');
@@ -34,7 +34,7 @@ function menuPage() {
 
     
   
-    //append JS HTML obj as child element
+    //append HTML
     content.appendChild(container);
     document.getElementById('homeContainer').appendChild(display);
     display.appendChild(image);

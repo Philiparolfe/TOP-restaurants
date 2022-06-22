@@ -34,6 +34,8 @@ body{
   min-width: 40%;
   
   justify-content: center;
+  justify-items: center;
+  text-align: center;
   
   
   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgb(80, 10, 3) 90%);

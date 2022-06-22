@@ -4,7 +4,7 @@
 // template code
 
 function navBar() {
-  // const HTML elements as JS obj
+  // create HTML elements
   const content = document.querySelector("#content");
   const container = document.createElement('header');
   container.id = 'container';

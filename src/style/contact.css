@@ -1,0 +1,12 @@
+#contactInfo {
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-family: Monospace;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}

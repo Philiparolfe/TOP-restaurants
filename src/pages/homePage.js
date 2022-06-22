@@ -1,5 +1,4 @@
 //import
-import navBar from "../components/navBar"
 import video from "../components/videoBg";
 // template code
 
