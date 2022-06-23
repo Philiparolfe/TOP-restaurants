@@ -10,7 +10,7 @@ import './style/header.css';
 import './style/home.css';
 import './style/menu.css';
 import './style/navBar.css';
-
+import './style/animations.css'
 
 // functions 
 
